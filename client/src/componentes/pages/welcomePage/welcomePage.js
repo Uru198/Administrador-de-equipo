@@ -40,13 +40,13 @@ const WelcomePage = () => {
     return (
         <div className="container">
             <div className={`${styles.spacedRow}`}>
-                <Link to="/players/list" ><h1>Manage Players</h1></Link>
+                <Link to="/" ><h1>Manage Players</h1></Link>
                 <h1>|</h1>
                 <Link to="/status/game/1"><h1>Manage Player Status</h1></Link>
             </div>
             <div className={`container ${styles.borderContainer}`}>
                 <div className={`${styles.spacedRow}`}>
-                    <Link to="/players/list" ><h2>List</h2></Link>
+                    <Link to="/" ><h2>List</h2></Link>
                     <h2>|</h2>
                     <Link to="/players/addplayer"><h2>Add Player</h2></Link>
                 </div>
